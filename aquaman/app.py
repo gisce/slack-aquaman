@@ -16,7 +16,7 @@ app = App(
     signing_secret=slack['signing_secret']
 )
 
-@app.message(re.compile(".*ltima.*aigua.*"))
+@app.message(re.compile(".*ltima.*(aigua|garrafa).*"))
 def tens_send(message, say):
     user = message['user']
     r = requests.post(
