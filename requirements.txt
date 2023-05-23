@@ -1,4 +1,4 @@
 osconf==0.1.3
-requests==2.27.1
+requests==2.31.0
 slack-bolt==1.14.0
 slack-sdk==3.17.0
